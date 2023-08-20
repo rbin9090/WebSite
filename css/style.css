@@ -1,0 +1,83 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+
+}
+
+header {
+    background-color: #311b92;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 > c{
+	font-family: 'ADLaM Display', cursive;
+	color: #e040fb ;
+}
+
+header h1 > b{
+	font-size: 30px;
+	font-family: 'Tilt Prism', cursive;
+	text-shadow: 2px 4px 2px  #fff;
+	color: orange;
+}
+
+header h1 > d{
+	font-size: 20px;
+	font-weight: normal;
+	padding: 10px;
+	font-weight: bolder;
+}
+
+.container-projects {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.box-project {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    margin: 1rem;
+    max-width: 450px;
+}
+
+.box-project img {
+    max-width: 100%;
+    height: auto;
+}
+
+.project h2 {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.project p {
+    margin-top: 0.5rem;
+    color: #777;
+}
+
+.project a {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #3498db;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: #3498db;
+    color: #fff;
+}
+
+
