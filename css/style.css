@@ -6,6 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
+    background-color: #ede7f6;
 
 }
 
@@ -42,6 +43,11 @@ header h1 > d{
     padding: 30px;
 }
 
+
+.project-description {
+    max-height: 150px; /* Defina a altura máxima desejada */
+    overflow: hidden;
+}
 .box-project {
     background-color: #fff;
     border-radius: 8px;
@@ -50,6 +56,16 @@ header h1 > d{
     margin: 1rem;
     max-width: 450px;
 }
+
+/* ... Seus estilos CSS existentes ... */
+
+/* Adicione essa regra para a animação de hover */
+.box-project:hover {
+    transform: scale(1.20);
+    transition: transform 0.3s ease-in-out;
+
+}
+
 
 .box-project img {
     max-width: 100%;
@@ -76,7 +92,7 @@ header h1 > d{
 footer {
     text-align: center;
     padding: 2rem;
-    background-color: #3498db;
+    background-color: #10024f;
     color: #fff;
 }
 
