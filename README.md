@@ -40,3 +40,7 @@ Currículo para Download: Se for relevante, adicione um link para download do cu
 Blog Pessoal: Se o indivíduo gosta de escrever, adicione um blog onde ele possa compartilhar seus pensamentos, insights e experiências relacionadas ao seu campo de atuação.
 
 Lembre-se de manter o design limpo e responsivo, destacando visualmente os projetos e mantendo as descrições concisas e informativas. Ter um site simples e bem organizado ajudará a destacar os projetos pessoais e as habilidades do indivíduo de forma eficaz.
+
+
+
+OK VAMOS SÓ MUDAR DE MAQUINA !
