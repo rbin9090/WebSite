@@ -14,7 +14,7 @@
         <p>Apresentando meus projetos criativo</p>
 
     </header>
-    
+   
     <section class="container-projects">
         <div class="box-project">
             <img src="img/projeto-1.png" alt="Controle de estoque">
@@ -36,7 +36,33 @@ Exclusão Eficiente: Remova produtos que não estão mais em seu estoque com ape
 Nosso sistema foi projetado pensando nas necessidades de gestão de estoque de mercados e estabelecimentos similares. Ele é a ferramenta ideal para manter o controle preciso dos seus produtos, simplificando suas operações diárias e auxiliando na tomada de decisões informadas.
 
 Entre em contato conosco hoje mesmo para conhecer mais detalhes sobre como nosso Sistema de Gestão de Produtos pode transformar a maneira como você administra seu estoque.".</p>
-            <a href="#" class="read-more">Ler mais</a>
+
+<?php
+
+
+if (isset($_POST['mercado'])) {
+
+
+
+ function location($url) {
+    
+    header("Location: $url");
+    exit; 
+}
+
+// Exemplo de uso da função para redirecionar o usuário para outra página
+$novapagina = $mercado;
+location($novapagina);
+
+
+}
+
+
+
+
+?>
+<form method="POST">
+            <input type="submit"  value="ler mais" name="mercado"><!--class="read-more"-->
         </div>
         <div class="box-project">
             <img src="img/sistema-escolar.png" alt="Project 2">
@@ -58,6 +84,8 @@ Entre em contato conosco hoje mesmo para conhecer mais detalhes sobre como nosso
         </div>
         <!-- Add more project divs as needed -->
     </section>
+
+    </form>
     
     <footer>
         <p>Contact me at <a href="mailto:contact@example.com">contact@example.com</a></p>
